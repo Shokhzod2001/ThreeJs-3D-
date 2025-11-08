@@ -1,0 +1,17 @@
+{
+  "name": "three",
+  "version": "1.0.0",
+  "description": "A Three.js project using Parcel bundler",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.171.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
